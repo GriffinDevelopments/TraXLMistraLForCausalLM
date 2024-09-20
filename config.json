@@ -1,0 +1,36 @@
+{
+  "_name_or_path": "C:/Users/wonde/Wonder-Griffin/TraXLMistralForCausalLM",
+  "architectures": [
+    "TraXLMistralForCausalLM"
+  ],
+  "dropout": 0.1,
+  "dynamic_routing": true,
+  "ff_expansion_factor": 4,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4"
+  },
+  "is_decoder": true,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4
+  },
+  "max_computation_steps": 5,
+  "max_len": 256,
+  "memory_size": 256,
+  "model_type": "TraXLMistral",
+  "n_head": 4,
+  "n_layer": 4,
+  "rnn_units": 128,
+  "sparse_attention": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.44.2",
+  "vocab_size": 50257
+}
